@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Alan Shaji</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Alan Shaji</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="togglemenu()">About</a></li>
+                    <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/alanshajicircle.png" alt="Alan Shaji Profile Pic"/>
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Alan Shaji</h1>
+                <p class="section__text__p2">Python Django Dev</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/alan_resume_python.pdf')"> Download CV </button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info </button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/alan0101/'">
+                    <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/alanshaji1000'">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about_alan.jpeg" alt="Profile Picture" class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience Icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>3+ months Internship <br> Python Django Full Stack Development </p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education Icon" class="icon">
+                            <h3>Education</h3>
+                            <p>Master of Computer Applications (2023) <br> Bacherlor of Computer Applications (2021)</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>I am an aspiring developer with a passion for innovation and problem-solving. As a motivated MCA graduate with a strong foundation in Python programming, I aim to leverage technology to create impactful solutions. I continuously learn and adapt to new technologies to stay at the industry's forefront.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+              <div class="about-containers">
+                <div class="details-container">
+                  <h2 class="experience-sub-title">Languages</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Python</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>MySQL</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>HTML</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>JavaScript</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="details-container">
+                  <h2 class="experience-sub-title">Tools & Technologies</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Django</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>GitHub</h3>
+                        <p>Intermediate</p>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="./assets/checkmark.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Gemini API</h3>
+                        <p>Basic</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="./assets/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#projects'"
+            />
+        </section>
+     
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+              <div class="about-containers">
+
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./assets/online_shop.png"
+                      alt="Project 1"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Online Shop</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/alanshaji1000/ecommerceproject'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://alanshaji1011.pythonanywhere.com/shop/'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./assets/todo.png"
+                      alt="Project 2"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">To-do</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/alanshaji1000/todoproject'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://alanshaji1012.pythonanywhere.com/'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./assets/movieproject.png"
+                      alt="Project 3"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Movie Store</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/alanshaji1000/movieproject'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://alanshaji1013.pythonanywhere.com/'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./assets/online_school_store.png"
+                      alt="Project 4"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Online School Store</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/alanshaji1000/schoolstore'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://alanshaji1010.pythonanywhere.com/'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <img
+              src="./assets/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#contact'"
+            />
+          </section>
+          <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="./assets/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:alanshaji1000@gmail.com">alanshaji1000@gmail.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="./assets/linkedin.png"
+                  alt="LinkedIn icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/alan0101/">LinkedIn</a></p>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+            <p>Copyright &#169; 2024 Alan Shaji </p>
+          </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
